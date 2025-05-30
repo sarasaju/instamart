@@ -1,0 +1,52 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 3rem;
+  margin-bottom: 2rem; /* Increased margin for spacing */
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  gap: 1rem; /* Vertical gap between items */
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff; /* Button-like background color */
+  padding: 1rem 2rem; /* Padding for a button-like appearance */
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  border: 1px solid transparent; /* Add border for distinction */
+}
+
+a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+a:active {
+  background-color: #003f7f; /* Even darker blue on click */
+}

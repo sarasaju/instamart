@@ -1,0 +1,42 @@
+/* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #a5c69b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+  font-size: 3rem;
+  margin-bottom: 2rem; /* Increased margin for spacing */
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #47617d; /* Button-like background color */
+  padding: 1rem 2rem; /* Padding for a button-like appearance */
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  margin: 10px; /* Added margin for spacing between buttons */
+}
+
+.button:hover {
+  background-color: #0e2b4a; /* Darker blue on hover */
+}
+
+.button:active {
+  background-color: #003f7f; /* Even darker blue on click */
+}
